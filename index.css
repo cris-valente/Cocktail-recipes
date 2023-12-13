@@ -164,7 +164,7 @@ input[type="radio"]{
     justify-content: center;
     border: 1px solid var(--fern-green);
     border-radius: 5px;
-    width: 320px;
+    width: 300px;
     height: 490px;
     background-color: var(--raisin-black);
 }
@@ -176,14 +176,14 @@ input[type="radio"]{
     align-items: center;
     text-align: center;
     color: var(--fern-green);
-    background: var(--raisin-black);
+    
 
 }
 
 .recipe-result h1{
-    
+    background: var(--raisin-black);
     position: absolute;
-    top: 60px;
+    top: 2%;
     left: 20px;
     margin-left: 10px;
     border-radius: 10px;
@@ -192,10 +192,10 @@ input[type="radio"]{
 }
 
 .listed-ingredients{
-    
+    background: var(--raisin-black);
     position: absolute;
-    top: 120px;
-    left: 20px;
+    top: 60px;
+    left: 2%;
     padding: 5px 10px;
     border-radius: 10px;
     margin-left: 10px;
@@ -207,6 +207,7 @@ input[type="radio"]{
 }
 
 .recipe-result p{
+    background: var(--raisin-black);
     position: absolute;
     bottom: 40px;
     margin: 0 20px 0 80px;
@@ -219,7 +220,7 @@ input[type="radio"]{
 }
 
 .cocktail-img{
-    max-width: 300px;
+    max-width: 280px;
     max-height: 380px;
     border-radius: 5px;
 }
