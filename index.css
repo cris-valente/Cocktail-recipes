@@ -73,7 +73,10 @@ header{
 
 /* controls */
 .container{
+    display: flex;
+    flex-direction: column;
     max-width: 320px;
+    margin: 30px auto;
     
 }
 .radio{
