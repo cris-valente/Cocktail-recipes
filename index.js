@@ -85,6 +85,9 @@ function renderCocktail(){
         </div>
         `
         recipeModal.style.display = 'flex'
+    } else {
+        recipeModalInner.innerHTML = `
+        <h1>No cocktails on this list yet...</h1>`
     }
     
     

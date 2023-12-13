@@ -129,7 +129,7 @@ export const cocktailRecipes = [
   },
   {
     cocktailName: "Cantaritos",
-    ingredients: ["tequila", "grapefruit juice", "orange juice", "lime juice", "simple syrup", "soda water"],
+    ingredients: ["Tequila", "grapefruit juice", "orange juice", "lime juice", "simple syrup", "soda water"],
     isShaken: false,
     instructions: "Build in a cantaritos mug with ice. Stir and top with soda water.",
     image: "images/cantaritos.jpg",
@@ -137,7 +137,7 @@ export const cocktailRecipes = [
   },
   {
     cocktailName: "The Last Word",
-    ingredients: ["gin", "green chartreuse", "maraschino liqueur", "lime juice"],
+    ingredients: ["Gin", "green chartreuse", "maraschino liqueur", "lime juice"],
     isShaken: true,
     instructions: "Shake all ingredients with ice and strain into a chilled coupe glass.",
     image: "images/the-last-word.jpg",
@@ -145,7 +145,7 @@ export const cocktailRecipes = [
   },
   {
     cocktailName: "Jungle Bird",
-    ingredients: ["dark rum", "pineapple juice", "Campari", "simple syrup", "lime juice"],
+    ingredients: ["Rum", "pineapple juice", "Campari", "simple syrup", "lime juice"],
     isShaken: false,
     instructions: "Build in a highball glass with ice. Stir and garnish with a pineapple leaf.",
     image: "images/jungle-bird.jpg",
@@ -153,7 +153,7 @@ export const cocktailRecipes = [
   },
   {
     cocktailName: "White Lady",
-    ingredients: ["gin", "triple sec", "lemon juice", "simple syrup", "egg white"],
+    ingredients: ["Gin", "triple sec", "lemon juice", "simple syrup", "egg white"],
     isShaken: true,
     instructions: "Dry shake, then shake again with ice and strain into a chilled coupe glass.",
     image: "images/white-lady.jpg",
@@ -161,7 +161,7 @@ export const cocktailRecipes = [
   },
   {
     cocktailName: "Whiskey Sour",
-    ingredients: ["bourbon", "lemon juice", "simple syrup", "egg white"],
+    ingredients: ["Bourbon", "lemon juice", "simple syrup", "egg white"],
     isShaken: true,
     instructions: "Dry shake, then shake again with ice and strain into a rocks glass filled with ice.",
     image: "images/whiskey-sour.jpg",
@@ -172,12 +172,12 @@ export const cocktailRecipes = [
     ingredients: ["Aperol", "prosecco", "soda water", "orange slice"],
     isShaken: false,
     instructions: "Build in a wine glass with ice. Top with prosecco and soda water. Garnish with an orange slice.",
-    image: "images/aperol-sptriz.jpg",
+    image: "images/aperol-spritz.jpg",
     alt: "a photo of an Aperol Spritz",
   },
   {
     cocktailName: "Cosmopolitan",
-    ingredients: ["vodka", "triple sec", "cranberry juice", "lime juice"],
+    ingredients: ["Vodka", "triple sec", "cranberry juice", "lime juice"],
     isShaken: true,
     instructions: "Shake all ingredients with ice and strain into a chilled martini glass.",
     image: "images/cosmopolitan.jpg",
@@ -185,7 +185,7 @@ export const cocktailRecipes = [
   },
   {
     cocktailName: "Mojito",
-    ingredients: ["white rum", "lime", "simple syrup", "mint leaves", "soda water"],
+    ingredients: ["Rum", "lime", "simple syrup", "mint leaves", "soda water"],
     isShaken: false,
     instructions: "Muddle lime and mint in a glass. Add rum, simple syrup, and ice. Top with soda water and stir.",
     image: "images/mojito.jpg",
@@ -193,7 +193,7 @@ export const cocktailRecipes = [
   },
   {
     cocktailName: "Old Fashioned",
-    ingredients: ["bourbon", "sugar cube", "Angostura bitters", "orange twist"],
+    ingredients: ["Bourbon", "sugar cube", "Angostura bitters", "orange twist"],
     isShaken: false,
     instructions: "Muddle sugar cube with bitters in a glass. Add a few drops of water and stir. Add bourbon and ice. Garnish with an orange twist.",
     image: "images/Old-fashioned.jpg",
@@ -201,7 +201,7 @@ export const cocktailRecipes = [
   },
   {
     cocktailName: "Piña Colada",
-    ingredients: ["white rum", "coconut cream", "pineapple juice"],
+    ingredients: ["Rum", "coconut cream", "pineapple juice"],
     isShaken: false,
     instructions: "Blend all ingredients with ice until smooth. Pour into a chilled hurricane glass.",
     image: "images/pina-colada.jpg",
@@ -209,7 +209,7 @@ export const cocktailRecipes = [
   },
   {
     cocktailName: "New York Sour",
-    ingredients: ["bourbon", "lemon juice", "simple syrup", "red wine"],
+    ingredients: ["Bourbon", "lemon juice", "simple syrup", "red wine"],
     isShaken: true,
     instructions: "Shake bourbon, lemon juice, and simple syrup with ice. Strain into a rocks glass filled with ice. Float red wine on top.",
     image: "images/new-york-sour.jpg",
@@ -217,7 +217,7 @@ export const cocktailRecipes = [
   },
   {
     cocktailName: "Martinez",
-    ingredients: ["gin", "sweet vermouth", "maraschino liqueur", "orange bitters"],
+    ingredients: ["Gin", "sweet vermouth", "maraschino liqueur", "orange bitters"],
     isShaken: true,
     instructions: "Stir all ingredients with ice and strain into a chilled coupe glass.",
     image: "images/martinez.jpg",
@@ -225,7 +225,7 @@ export const cocktailRecipes = [
   },
   {
     cocktailName: "Naked & Famous",
-    ingredients: ["mezcal", "Aperol", "yellow chartreuse", "lime juice"],
+    ingredients: ["Aperol", "Mezcal", "yellow chartreuse", "lime juice"],
     isShaken: true,
     instructions: "Shake all ingredients with ice and strain into a chilled coupe glass.",
     image: "images/naked&famous.jpg",
@@ -233,7 +233,7 @@ export const cocktailRecipes = [
   },
   {
     cocktailName: "Vieux Carré",
-    ingredients: ["rye whiskey", "Cognac", "sweet vermouth", "Benedictine", "Angostura bitters", "Peychaud's bitters"],
+    ingredients: ["Whisky", "Cognac", "sweet vermouth", "Benedictine", "Angostura bitters", "Peychaud's bitters"],
     isShaken: false,
     instructions: "Stir all ingredients with ice and strain into a rocks glass filled with ice.",
     image: "images/vieux-carre.jpg",
@@ -241,7 +241,7 @@ export const cocktailRecipes = [
   },
   {
     cocktailName: "Macunaíma",
-    ingredients: ["cachaça", "lemon juice", "sugar", "fernet liqueur"],
+    ingredients: ["Cachaça", "lemon juice", "sugar", "fernet liqueur"],
     isShaken: true,
     instructions: "Shake all ingredients with ice and strain into a chilled a glass.",
     image: "images/macunaima.jpg",
