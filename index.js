@@ -22,6 +22,7 @@ function highlightCheckedOption(e){
     document.getElementById(e.target.id).parentElement.classList.add('highlight')
  
 }
+
 function closeModal() {
     recipeModal.style.display = 'none'
 }
@@ -65,9 +66,9 @@ function renderCocktail(){
 
         let ingredientsUl = ""
         for (let ingredient of cocktailObject.ingredients){
-            ingredientsUl += `<li>${ingredient[0].toUpperCase() + ingredient.slice(1)}</li>`
+        ingredientsUl += `<li>${ingredient[0].toUpperCase() + ingredient.slice(1)}</li>`
         }
-
+        
         recipeModalInner.innerHTML = 
         `
         <div id="recipe-result" class="recipe-result">
@@ -98,8 +99,7 @@ function getSpiritsArray(recipes){
         
      } 
    return spiritsArray
- }
-
+}
 
 function renderSpirits(recipes) {
     const spirits = getSpiritsArray(recipes)
@@ -117,4 +117,4 @@ function renderSpirits(recipes) {
     }
     
 }
-
+renderSpirits(cocktailRecipes)

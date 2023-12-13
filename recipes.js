@@ -36,7 +36,7 @@ export const cocktailRecipes = [
     ingredients: ["Rum", "lime juice", "simple syrup"],
     isShaken: true,
     instructions: "Shake all ingredients with ice and strain into a chilled coupe glass.",
-    image: "strawberry-frozen-daiquiri.jpg",
+    image: "images/strawberry-frozen-daiquiri.jpg",
     alt: "a photo of a frozen strawberry Daiquiri",
   },
   {
