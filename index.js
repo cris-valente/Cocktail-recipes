@@ -67,11 +67,14 @@ function renderCocktail(){
         for (let ingredient of cocktailObject.ingredients){
             ingredientsUl += `<li>${ingredient[0].toUpperCase() + ingredient.slice(1)}</li>`
         }
-        
+
         recipeModalInner.innerHTML = 
         `
         <div id="recipe-result" class="recipe-result">
             <h1>${cocktailObject.cocktailName}</h1>
+            <ul class="listed-ingredients" id="listed-ingredients">
+                ${ingredientsUl}
+            </ul>
             <img
             class="cocktail-img" 
             src="${cocktailObject.image}" 
