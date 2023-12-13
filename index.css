@@ -16,7 +16,6 @@ html, body {
     font-family: 'Karla', sans-serif;
 }
 
-
 /*typography*/
 
 h1, h2, h3{
@@ -51,17 +50,11 @@ header{
     background-color: var(--raisin-black);
 }
 
-.container{
-    width: 60vw;
-    max-width: 370px;
-}
-
 .header-inner{
     display: flex;
     align-items: center;
     margin: 0 auto;
-    width: 60vw;
-    max-width: 370px;
+    width: 370px;
     gap: 15px;
     padding: 10px 0 0 0;
 }
@@ -74,8 +67,7 @@ header{
 .controls-container{
     display: flex;
     flex-direction: column;
-    width: 60vw;
-    max-width: 300px;
+    width: 200px;
     margin: 0px auto;
 }
 
@@ -171,8 +163,7 @@ input[type="radio"]{
     justify-content: center;
     border: 1px solid var(--fern-green);
     border-radius: 5px;
-    width: 60vw;
-    max-width: 420px;
+    width: 420px;
     height: 490px;
     background-color: var(--raisin-black);
     
