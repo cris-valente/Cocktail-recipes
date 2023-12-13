@@ -10,28 +10,34 @@
 
 <body>
 	<header>
-		<div class="header-inner">
-			<img src="images/adam-jaime-main-unsplash.jpg" class="main-img">
-			<div>
-				<h2>The world's famous</h2>
-				<h1>PARTYMAKER</h1>
+		<div class="container">
+			<div class="header-inner">
+				<img src="images/adam-jaime-main-unsplash.jpg" class="main-img">
+				<div>
+					<h2>The world's famous</h2>
+					<h1>PARTYMAKER</h1>
+				</div>
 			</div>
 		</div>
 	</header>
 	<main>
-		<h3>Find me inspiration based on:</h3>
-		<div class="controls-container">
-			<div class="spirit-radios" id="spirit-radios"></div>
-			<div class="shaken-cocktails-check">
-				<label for="no-shaken-cocktails-option" class="no-shaken-cocktails-check-label">No shaken cocktails</label>
-				<input type="checkbox" id="no-shaken-cocktails-option">
+		<div class="container">
+			<h3>Find me inspiration based on:</h3>
+			<div class="controls-container">
+				<div class="spirit-radios" id="spirit-radios"></div>
+				<div class="shaken-cocktails-check">
+					<label for="no-shaken-cocktails-option" class="no-shaken-cocktails-check-label">No shaken cocktails</label>
+					<input type="checkbox" id="no-shaken-cocktails-option">
+				</div>
+				<button class="get-recipe-btn" id="get-recipe-btn">Get Recipe</button>
 			</div>
-			<button class="get-recipe-btn" id="get-recipe-btn">Get Recipe</button>
 		</div>
 	</main>
-		<div class="recipe-modal" id="recipe-modal">
-			<button class="recipe-modal-close-btn" id="recipe-modal-close-btn">X</button>
-			<div id="recipe-modal-inner"></div>
+		<div class="container">
+			<div class="recipe-modal" id="recipe-modal">
+				<button class="recipe-modal-close-btn" id="recipe-modal-close-btn">X</button>
+				<div id="recipe-modal-inner"></div>
+			</div>
 		</div>
 	<script src="index.js" type="module"></script>
 </body>

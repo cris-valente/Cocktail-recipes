@@ -72,7 +72,8 @@ header{
 }
 
 /* controls */
-.spirit-radios{
+.container{
+    max-width: 320px;
     
 }
 .radio{
