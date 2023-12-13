@@ -62,6 +62,12 @@ function getSingleCocktail(){
 function renderCocktail(){
     if(document.querySelector('input[type="radio"]:checked')){
         const cocktailObject = getSingleCocktail()
+
+        let ingredientsUl = ""
+        for (let ingredient of cocktailObject.ingredients){
+            ingredientsUl += `<li>${ingredient[0].toUpperCase() + ingredient.slice(1)}</li>`
+        }
+        
         recipeModalInner.innerHTML = 
         `
         <div id="recipe-result" class="recipe-result">
@@ -109,4 +115,3 @@ function renderSpirits(recipes) {
     
 }
 
-renderSpirits(cocktailRecipes)
