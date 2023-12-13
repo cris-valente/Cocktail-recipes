@@ -73,7 +73,7 @@ header{
 
 /* controls */
 .container{
-    max-width: 320px;
+    width: 320px;
     margin: 0 auto;
 }
 
@@ -150,6 +150,7 @@ input[type="radio"]{
 .get-recipe-btn:active{
     background-color: var(--licorice);
 }
+
 /* modal */
 
 .recipe-modal{
@@ -175,50 +176,46 @@ input[type="radio"]{
     align-items: center;
     text-align: center;
     color: var(--fern-green);
+    background: var(--raisin-black);
 
 }
 
 .recipe-result h1{
     
-    /* text-shadow: -1px 1px 2px whitesmoke; */
-    letter-spacing: 3px;
     position: absolute;
     top: 60px;
     left: 20px;
-    padding: 5px 10px;
-    border-radius: 10px;
-    background: var(--raisin-black);
     margin-left: 10px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    letter-spacing: 3px;
 }
 
 .listed-ingredients{
     
-    opacity: 0.9;
-    list-style: none;
-    font-size: 17px;
-    letter-spacing: 2px;
     position: absolute;
     top: 120px;
     left: 20px;
     padding: 5px 10px;
     border-radius: 10px;
-    background: var(--raisin-black);
     margin-left: 10px;
+    list-style: none;
+    font-size: 17px;
     text-align: left;
+    letter-spacing: 2px;
+    opacity: 0.9;
 }
 
 .recipe-result p{
     position: absolute;
-    margin: 0 20px 0 80px;;
     bottom: 40px;
-    /* text-shadow: 1px 1px 2px whitesmoke; */
+    margin: 0 20px 0 80px;
+    border-radius: 8px;
+    padding: 5px 3px;  
     font-weight: 700;
     font-family: 'Nunito', sans-serif;
     font-size: 17px;
-    background: var(--raisin-black);
     opacity: 0.9;
-    border-radius: 8px;
-    padding: 5px 3px;  
 }
 
 .cocktail-img{
