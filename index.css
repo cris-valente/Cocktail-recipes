@@ -74,17 +74,16 @@ header{
 /* controls */
 .container{
     max-width: 320px;
-    
+    margin: 0 auto;
 }
+
 .radio{
     display: flex;
     align-items: center;
     border-bottom: 1px solid #bcbcbc;
- 
-    padding: 4px 8px;
-    
-    
+    padding: 4px 8px;   
 }
+
 .radio:hover{
     background-color: var(--lavender-blush);
 }
@@ -164,7 +163,7 @@ input[type="radio"]{
     justify-content: center;
     border: 1px solid var(--fern-green);
     border-radius: 5px;
-    width: 420px;
+    width: 320px;
     height: 490px;
     background-color: var(--raisin-black);
     
