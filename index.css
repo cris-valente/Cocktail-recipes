@@ -14,6 +14,10 @@
 html, body {
     margin: 0;
     font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    background-color: #FFFFFF;
+    height: 80%;
 }
 
 /*typography*/
@@ -28,19 +32,19 @@ h1, h2{
 }
 
 h1{
-    font-size: 28px;
+    font-size: 35px;
     font-family: 'Nunito', sans-serif;
     font-weight: 700;
     
 }
 
 h2 {
-    font-size: 16px;
+    font-size: 30px;
     font-family: 'Silkscreen', sans-serif;
 }
 
 h3{
-    margin: 25px;
+    margin: 45px;
     color: var(--cal-poly-green)
 }
 
@@ -51,22 +55,23 @@ header{
 }
 
 .header-inner{
+    
     display: flex;
     align-items: center;
     margin: 0 auto;
-    width: 370px;
-    gap: 15px;
+    max-width: 370px;
+    gap: 15px;  
     padding: 10px 0 0 0;
 }
 
 .main-img{
-    width: 80px;
+    width: 200px;
     border-radius: 6px;
 }
 
 .controls-container{
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     width: 200px;
     margin: 0px auto;
 }
@@ -76,9 +81,17 @@ header{
     display: flex;
     flex-direction: column;
     max-width: 320px;
-    margin: 30px auto;
+    margin: 0 auto 0 10px;
     
 }
+.stretch{
+    width: 100%
+}
+
+.center{
+    margin: 0 auto;
+}
+
 .radio{
     display: flex;
     align-items: center;
@@ -168,7 +181,7 @@ input[type="radio"]{
     border: 1px solid var(--fern-green);
     border-radius: 5px;
     width: 420px;
-    height: 490px;
+    height: 80%;
     background-color: var(--raisin-black);
     
 }
@@ -202,7 +215,7 @@ input[type="radio"]{
     /* text-shadow: 1px 1px 2px whitesmoke; */
     font-weight: 700;
     font-family: 'Nunito', sans-serif;
-    font-size: 17px;
+    font-size: 30px;
     background: var(--raisin-black);
     opacity: 0.9;
     border-radius: 8px;
