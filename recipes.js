@@ -247,4 +247,28 @@ export const cocktailRecipes = [
     image: "images/macunaima.jpg",
     alt: "a photo of Macunaíma",
   },
+  {
+    cocktailName: "Picante de la Casa",
+    ingredients: ["Tequila", "lime juice", "agave syrup", "jalapeño slices", "cilantro leaves"],
+    isShaken: true,
+    instructions: "Muddle jalapeño and cilantro in a shaker. Add tequila, lime juice, and agave syrup. Shake with ice and strain into a rocks glass.",
+    image: "images/picante-de-la-casa.jpg",
+    alt: "a photo of a Picante de la Casa",
+  },
+  {
+    cocktailName: "Aviation",
+    ingredients: ["Gin", "maraschino liqueur", "violet liqueur", "lemon juice"],
+    isShaken: true,
+    instructions: "Shake all ingredients with ice and strain into a chilled martini glass.",
+    image: "images/aviation.jpg",
+    alt: "a photo of an Aviation",
+  },
+  {
+    cocktailName: "Paper Plane",
+    ingredients: ["Bourbon", "Aperol", "Amaro Nonino", "lemon juice"],
+    isShaken: true,
+    instructions: "Shake all ingredients with ice and strain into a chilled coupe glass.",
+    image: "images/paper-plane.jpg",
+    alt: "a photo of a Paper Plane",
+  },
 ];
