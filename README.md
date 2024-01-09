@@ -1,4 +1,23 @@
-# cPy8M9cg
+# The World's Famous Party Maker
+## Overview
+This app finds inspiration based for making cocktails based on a main spirit.
+The data for the more than 30 cocktails has been created with the help of chatGPT. 
+It includes classic cocktails as well as less known cocktails all selected from the top 100 most popular cocktails from Gilfford's list.
+
+LIVE LINK: https://cristiano-trivia.netlify.app/
+
+## Features
+1. The app renders a list of main spirits on each cocktail from the list in 'recipes.js'. The user can choose one main spirit and has the option to check 'No shaken cocktails' in case he or she does not dispose of a shaker at home.
+2. When the user clicks on the 'Get Recipe' button the app opens a modal that shows a randomly picked recipe of a cocktail that has the chosen spirit as a main ingredient.
+3. The app is responsive and acts as an app in mobiles.
+
+## Running the project
+The code is made so more recipes can be added.
+
+In the future the code could get recipes from an API.
+
+## Dependencies 
+The only external resource of this project is google fonts
 
 Quick start:
 
