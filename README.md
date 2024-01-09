@@ -18,7 +18,7 @@ The code is made so more recipes can be added.
 In the future the code could get recipes from an API.
 
 ## Dependencies 
-The only external resource of this project is google fonts
+The only external resource of this project is google fonts.
 
 Quick start:
 
