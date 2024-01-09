@@ -7,9 +7,10 @@ It includes classic cocktails as well as less known cocktails all selected from 
 LIVE LINK: https://cristiano-trivia.netlify.app/
 
 ## Features
-1. The app renders a list of main spirits on each cocktail from the list in 'recipes.js'. The user can choose one main spirit and has the option to check 'No shaken cocktails' in case he or she does not dispose of a shaker at home.
-2. When the user clicks on the 'Get Recipe' button the app opens a modal that shows a randomly picked recipe of a cocktail that has the chosen spirit as a main ingredient.
-3. The app is responsive and acts as an app in mobiles.
+1. The app renders a list of main spirits on each cocktail from the list in 'recipes.js'.
+2. The user can choose one main spirit and has the option to check 'No shaken cocktails' in case he or she does not dispose of a shaker at home.
+3. When the user clicks on the 'Get Recipe' button the app opens a modal that shows a randomly picked recipe of a cocktail that has the chosen spirit as a main ingredient.
+4. The app is responsive and acts as an app in mobiles.
 
 ## Running the project
 The code is made so more recipes can be added.
