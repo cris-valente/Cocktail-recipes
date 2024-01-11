@@ -12,6 +12,9 @@ LIVE LINK: https://cristiano-trivia.netlify.app/
 3. When the user clicks on the 'Get Recipe' button the app opens a modal that shows a randomly picked recipe of a cocktail that has the chosen spirit as a main ingredient.
 4. The app is responsive and acts as an app in mobiles.
 
+> [!TIP]
+> Try looking for a cocktail with an spirit that you have at home. Then get the other necessary ingredients at your closest local market.
+
 ## Running the project
 The code is made so more recipes can be added.
 
