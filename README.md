@@ -3,7 +3,7 @@
 The purpose of this app is to help the user find inspiration based for making cocktails based on a main spirit.  
 The data for the more than 30 cocktails has been created with the help of chatGPT. It includes classic cocktails as well as less known cocktails all selected from the top 100 most popular cocktails from Gilfford's list.
 
-LIVE LINK: https://cristiano-trivia.netlify.app/
+LIVE LINK: https://cristianos-cocktail-partymaker.netlify.app/
 
 > [!TIP]
 > Try looking for a cocktail with an spirit that you have at home. Then get the other necessary ingredients at your closest local market.
