@@ -72,7 +72,7 @@ function renderCocktail(){
         recipeModalInner.innerHTML = 
         `
         <div id="recipe-result" class="recipe-result">
-            <h1>${cocktailObject.cocktailName}</h1>
+            <h3>${cocktailObject.cocktailName}</h3>
             <ul class="listed-ingredients" id="listed-ingredients">
                 ${ingredientsUl}
             </ul>

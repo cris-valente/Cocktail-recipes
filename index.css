@@ -48,32 +48,37 @@ h3{
 
 header{
     background-color: var(--raisin-black);
+    cursor: default;
+    
 }
 
 .header-inner{
     display: flex;
-    align-items: center;
+    justify-content: center;;
+    align-items: end;
     margin: 0 auto;
-    width: 370px;
-    gap: 15px;
-    padding: 10px 0 0 0;
+    width: 50vw;
+    gap: 1rem;
+    padding-top: 1rem;
 }
 
 .main-img{
-    width: 80px;
-    border-radius: 6px;
+    width: 6rem;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
 }
 
 .controls-container{
     display: flex;
     flex-direction: column;
-    width: 200px;
+    width: 50vw;
+    max-width: 500px;
     margin: 0px auto;
 }
 
 /* controls */
 .container{
-    width: 320px;
+    width: 60vw;
     margin: 0 auto;
 }
 
@@ -132,6 +137,10 @@ input[type="radio"]{
     margin-right: 5px;
 }
 
+button {
+    cursor: pointer;
+}
+
 .get-recipe-btn{
     background-color: var(--fern-green);
     color: var(--buff);
@@ -157,15 +166,16 @@ input[type="radio"]{
     display: none; /*flex when displayed*/
     position: fixed;
     margin: auto;
-    top: 80px;
+    top: 6rem;
     left: 0;
     right: 0;
     align-items: center;
     justify-content: center;
     border: 1px solid var(--fern-green);
     border-radius: 5px;
-    width: 300px;
-    height: 490px;
+    width: 70vw;
+    max-width: 700px;
+    height: 80vh;
     background-color: var(--raisin-black);
 }
 
@@ -177,16 +187,16 @@ input[type="radio"]{
     text-align: center;
     color: var(--fern-green);
     gap: 10px;
-    
 
 }
 
-.recipe-result h1{
+.recipe-result h3{
     
     position: absolute;
     top: 30px;
     left: 0;
-    margin: 0 0 0 10px;
+    right: 0;
+    margin-left: 10px;
     border-radius: 10px;
     padding: 5px 10px;
     letter-spacing: 3px;
@@ -221,8 +231,8 @@ input[type="radio"]{
 }
 
 .cocktail-img{
-    max-width: 280px;
-    max-height: 380px;
+    max-width: 500px;
+    height: 70vh;
     border-radius: 5px;
 }
 
