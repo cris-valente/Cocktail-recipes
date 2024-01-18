@@ -12,6 +12,8 @@ spiritRadios.addEventListener('change', highlightCheckedOption)
 
 recipeModalCloseBtn.addEventListener('click', closeModal)
 
+document.addEventListener('mouseup', closeModalByClickingAnywhere)
+
 getRecipeBtn.addEventListener('click', renderCocktail)
 
 function highlightCheckedOption(e){
@@ -19,12 +21,17 @@ function highlightCheckedOption(e){
     for (let item of radioItemsArray){
         item.classList.remove('highlight')
     }
-    document.getElementById(e.target.id).parentElement.classList.add('highlight')
- 
+    document.getElementById(e.target.id).parentElement.classList.add('highlight') 
 }
 
 function closeModal() {
     recipeModal.style.display = 'none'
+}
+
+function closeModalByClickingAnywhere(e){
+    if(recipeModal.style.display === 'flex' && !recipeModal.contains(e.target)){
+            closeModal()
+    }
 }
 
 function getMatchingCocktailsArray(){
@@ -114,7 +121,7 @@ function renderSpirits(recipes) {
             type="radio"
             id="${spirit}"
             value="${spirit}"
-            name="emotions"
+            name="spirits"
             >
         </div>`
     }

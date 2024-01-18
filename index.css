@@ -5,15 +5,20 @@
     --buff: #d89a75ff;
     --chestnut: #965136ff;
     --cal-poly-green: #215431ff;
+    --modal-green-alternative-h3: #3CA05C;
     --fern-green: #477840ff;
+    --modal-green-alternative-p: #6CC161;
     --chocolate-cosmos: #690B1Eff;
     --lavender-blush: #F4E5EAff;
 }
 
+*, *::after, *::before {
+    box-sizing: border-box;
+}
 
 html, body {
     margin: 0;
-    font-family: 'Karla', sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
 
 /*typography*/
@@ -29,18 +34,18 @@ h1, h2{
 
 h1{
     font-size: 1.75rem;
-    font-family: 'Nunito', sans-serif;
     font-weight: 700;
     
 }
 
 h2 {
     font-size: 0.9rem;
+    letter-spacing: .7px;
     font-family: 'Silkscreen', sans-serif;
 }
 
 h3{
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     margin: 1rem;
     color: var(--cal-poly-green)
 }
@@ -69,41 +74,25 @@ header{
     border-top-right-radius: 6px;
 }
 
-@media (min-width: 500px){
-    .main-img{
-        width: 8rem;
-    }
-
-    h1{
-        font-size: 3rem;
-    }
-    h2{
-        font-size: 1.5rem;
-    }
-    h3{
-        font-size: 1.5rem;
-    }
-}
-
 .controls-container{
     display: flex;
     flex-direction: column;
-    width: 50vw;
+    width: 70vw;
     max-width: 500px;
-    margin: 0px auto;
+    margin: 0 auto;
 }
 
 /* controls */
-.container{
+/* .container{
     width: 60vw;
     margin: 0 auto;
-}
+} */
 
 .radio{
     display: flex;
     align-items: center;
     border-bottom: 1px solid #bcbcbc;
-    padding: 4px 8px;   
+    padding: 6px 8px 2px;   
 }
 
 .radio:hover{
@@ -122,7 +111,7 @@ header{
 }
 
 label{
-    font-size: 18px;
+    font-size: 1.25rem;
     padding: 3px;
     width: 100%;
     cursor: pointer;
@@ -144,9 +133,9 @@ input[type="radio"]{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 8px 16px;
+    margin: 1.25rem 1rem;
     accent-color: var(--chocolate-cosmos);
-    padding: 0 5px;
+    padding: 5px;
 }
 
 .shaken-cocktails-check-label{
@@ -159,18 +148,17 @@ button {
 }
 
 .get-recipe-btn{
-    background-color: var(--fern-green);
+    background-color: var(--cal-poly-green);
     color: var(--buff);
     padding: 15px 19px;
     font-size: 28px;
-    font-family: 'Nunito', sans-serif;
     border: none;
     border-radius: 5px;
     margin-bottom: 8px;
 }
 
 .get-recipe-btn:hover{
-    background-color: var(--cal-poly-green);
+    background-color: var(--fern-green);
 }
 
 .get-recipe-btn:active{
@@ -202,15 +190,16 @@ button {
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: var(--fern-green);
+    color: var(--modal-green-alternative-h3);
     gap: 10px;
 
 }
 
 .recipe-result h3{
-    
+    color: var(--modal-green-alternative-h3);
+    font-size: 1.75rem;
     position: absolute;
-    top: 30px;
+    top: 1.5rem;
     left: 0;
     right: 0;
     margin-left: 10px;
@@ -222,7 +211,7 @@ button {
 .listed-ingredients{
     background: var(--raisin-black);
     position: absolute;
-    top: 80px;  
+    top: 6rem;  
     left: 2%;
     padding: 5px 10px;
     border-radius: 10px;
@@ -235,14 +224,13 @@ button {
 }
 
 .recipe-result p{
+    color: var(--modal-green-alternative-p);
     background: var(--raisin-black);
     position: absolute;
-    bottom: 40px;
+    bottom: 3rem;
     margin: 0 20px 0 80px;
     border-radius: 8px;
-    padding: 5px 3px;  
-    font-weight: 700;
-    font-family: 'Nunito', sans-serif;
+    padding: 5px 3px;
     font-size: 17px;
     opacity: 0.9;
 }
@@ -267,6 +255,27 @@ button {
 
 .recipe-modal-close-btn:hover{
     color: white;
-    background-color: var(--fern-green);
-    border: 2px solid var(--fern-green);
+    background-color: var(--modal-green-alternative-h3);
+    border: 2px solid var(--modal-green-alternative-h3);
+}
+
+/* Media queries */
+@media (min-width: 500px){
+    .main-img{
+        width: 8rem;
+    }
+
+    h1{
+        font-size: 3rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    h3{
+        font-size: 1.45rem;
+    }
+
+    .recipe-result h3{
+        font-size: 3rem;
+    }
 }
